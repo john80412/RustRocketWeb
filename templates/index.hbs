@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+    .container-fluid {
+        margin-top: 3%;
+    }
+</style>
+
+<body>
+    <div class="row container-fluid">
+        <div class="col-6">
+            Hello {{account}} {{name}}
+            <ul>
+                <li>
+                    <a href="/hello/John/23/true">/hello/&lt;name&gt;/&lt;age&gt;/&lt;cool&gt;</a>
+                </li>
+                <li>
+                    <a href="/page/path/12345">/page/&lt;path&gt;</a>
+                </li>
+                <li>
+                    <a href="/static/123.txt">/&lt;file&gt;</a>
+                </li>
+                <li>
+                    <a href="/user/2">/user/&lt;id&gt; id:usigned</a>
+                </li>
+                <li>
+                    <a href="user/-1">/&lt;id&gt; id:signed</a>
+                </li>
+                <li>
+                    <a href="user/abc">/&lt;id&gt; id:str</a>
+                </li>
+                <li>
+                    <a href="/hello?wave&name=John">/hello?wave&&lt;name&gt;</a>
+                </li>
+                <li>
+                    <a href="/item?id=1&name=John&account=1234">/item?&lt;id&gt;&&lt;user&gt;</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <img src="static/aurora.jpg" style="width: 100%;height:auto;" alt="">
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
